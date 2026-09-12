@@ -2,96 +2,125 @@
 
 
 
-# [Project Name] 🎯
+# VadhuVidhi 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: user_1
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Leah Sarah Biju - SNGCE
+
 
 ### Project Description
-[2-3 lines about what your project does]
+VadhuVidhi.EXE is an absurd AI-powered simulation of a traditional Kerala/Indian Pennu Kaanal ceremony.
+The system analyzes the bride, groom, family approval, social compatibility, jathakam, and basically everything imaginable — only to discover at the very end that it forgot to ask the two people who actually have to get married.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Families already have too many things to consider before a marriage:
+Jathakam.  
+Family approval.  
+Career.  
+Compatibility.  
+Relatives' opinions.  
+And apparently... whether the groom supports Messi or Ronaldo.
+So I solved the completely fictional problem of **not having an unnecessarily complicated AI system to decide all of this.**
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Introducing **VadhuVidhi.EXE** — an AI matchmaking system that takes the traditional Pennu Kaanal process and makes it dramatically more complicated.
+It scans the bride and groom, calculates ridiculous compatibility metrics, consults a suspiciously confident jathakam, lets the family celebrate, survives Sudhi Maman's football-related objections, and starts planning the wedding.
+Then the system crashes.
+
+Why?
+
+It forgot one tiny variable:
+
+**BRIDE & GROOM CONSENT**
+
+The AI finally realizes that a lifetime cannot be decided by a score and returns the decision to the humans.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- HTML
+- CSS
+- JavaScript
+- Python
+- Flask
+- MediaPipe
+- Browser Web Camera API (`getUserMedia`)
+- JSON
+- Google AI Studio
+- Git / GitHub
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+
 
 ### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
+git clone <your-github-repository-url>
+cd VadhuVidhi
+pip install -r requirements.txt
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="593" height="306" alt="Image" src="https://github.com/user-attachments/assets/372c4dd0-5b5e-46d1-8900-5ecc2a400ff0" />
+UI of my web application
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+<img width="575" height="302" alt="Image" src="https://github.com/user-attachments/assets/9a2a45f3-e55a-4301-9f86-a828ed36646e" />
+Candidate details
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="572" height="302" alt="Image" src="https://github.com/user-attachments/assets/52dec358-515d-44cc-b9f7-f70820459b47" />
+whatsapp group 
+
+<img width="550" height="299" alt="Image" src="https://github.com/user-attachments/assets/40218396-b2a1-4c46-91ae-9f895db7260d" />
+Climax
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+BOOT
+  ↓
+CURTAIN
+  ↓
+GROOM + BRIDE SCANS
+  ↓
+COMPATIBILITY ANALYSIS
+  ↓
+FAMILY GROUP CHAT
+  ↓
+JATHAKAM → 10/10
+  ↓
+CELEBRATION
+  ↓
+SUDHI MAMAN FOOTBALL DRAMA ⚽
+  ↓
+WEDDING PLANNING
+  ↓
+SYSTEM FREEZE
+  ↓
+ERROR → DIAGNOSTIC
+  ↓
+CONSENT NOT FOUND ❌
+  ↓
+DECISION RETURNED TO HUMANS
+  ↓
+SHUTDOWN
 
-For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[https://drive.google.com/drive/folders/1wvdQoyvDLMJbds5Y46zOEv762hz9CjYK?usp=sharing]
+VadhuVidhi.EXE is an interactive web application that humorously simulates a traditional Kerala Pennu Kaanal through an absurd AI matchmaking system.
+It scans the bride and groom, analyzes compatibility, checks the jathakam, and involves the entire family through a realistic group chat.
+Even after getting a perfect 10/10 match, the family faces unexpected drama before planning the wedding.
+The system ultimately crashes after realizing it never considered the most important factor — the bride and groom’s consent.
+The project ends with the message: “Decision Returned to Humans.”
 
-# Additional Demos
-[Add any extra demo materials/links]
+### Deployed video
+uselessprojectvadhuvidhi.vercel.app
 
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
