@@ -118,8 +118,7 @@ Even after getting a perfect 10/10 match, the family faces unexpected drama befo
 The system ultimately crashes after realizing it never considered the most important factor — the bride and groom’s consent.
 The project ends with the message: “Decision Returned to Humans.”
 
-### Deployed video
-[uselessprojectvadhuvidhi.vercel.app]
+[https://uselessprojectvadhuvidhi.vercel.app/]
 
 
 ---
