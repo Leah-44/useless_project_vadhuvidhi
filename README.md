@@ -79,6 +79,7 @@ Climax
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
+```
 BOOT
   ↓
 CURTAIN
@@ -106,6 +107,7 @@ CONSENT NOT FOUND ❌
 DECISION RETURNED TO HUMANS
   ↓
 SHUTDOWN
+```
 
 
 
