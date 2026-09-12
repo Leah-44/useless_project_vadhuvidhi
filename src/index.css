@@ -1,0 +1,237 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Typographic Font Families */
+  .font-regal {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  .font-cinzel {
+    font-family: 'Cinzel', 'Playfair Display', Georgia, serif;
+  }
+  .font-craw {
+    font-family: 'Bodoni Moda', 'Playfair Display', 'Didot', 'Bodoni MT', Georgia, serif;
+  }
+  .font-italiana {
+    font-family: 'Italiana', 'Bodoni Moda', 'Playfair Display', Georgia, serif;
+  }
+  .font-hullgaria {
+    font-family: 'Mea Culpa', 'Monsieur La Doulaise', 'Pinyon Script', 'Alex Brush', cursive;
+  }
+  .font-constania {
+    font-family: 'Pinyon Script', 'Alex Brush', 'Great Vibes', cursive;
+  }
+  .font-editorial {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+  .font-mono-code {
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+  }
+  .font-ornate {
+    font-family: 'Rozha One', 'Playfair Display', serif;
+  }
+
+  /* Minimalist Light Desi Palette */
+  .bg-warm-ivory {
+    background-color: #faf7f2;
+  }
+  .bg-soft-cream {
+    background-color: #fdfbf7;
+  }
+  .bg-pale-peach {
+    background-color: #fff9f5;
+  }
+  .bg-light-beige {
+    background-color: #f6f1e8;
+  }
+  .bg-card-light {
+    background-color: #ffffff;
+  }
+
+  /* Muted Desi Accent Colors */
+  .text-muted-maroon {
+    color: #78182a;
+  }
+  .bg-muted-maroon {
+    background-color: #78182a;
+  }
+  .border-muted-maroon {
+    border-color: #78182a;
+  }
+
+  .text-muted-gold {
+    color: #a8822e;
+  }
+  .bg-muted-gold {
+    background-color: #bfa054;
+  }
+  .border-muted-gold {
+    border-color: #cbb47b;
+  }
+
+  .text-sage-green {
+    color: #4a7062;
+  }
+  .bg-sage-light {
+    background-color: #eef4f1;
+  }
+
+  .text-soft-rose {
+    color: #b85b73;
+  }
+  .bg-rose-light {
+    background-color: #fdf2f4;
+  }
+
+  /* CURTAIN SPECIAL EXCEPTION: Multi-tone festive Indian wedding curtain */
+  .bg-curtain-festive-left {
+    background: linear-gradient(
+      135deg,
+      #9e1b32 0%,
+      #c2185b 22%,
+      #e91e63 42%,
+      #f06292 60%,
+      #ff7043 78%,
+      #ffa726 90%,
+      #ffd54f 100%
+    );
+  }
+
+  .bg-curtain-festive-right {
+    background: linear-gradient(
+      225deg,
+      #9e1b32 0%,
+      #c2185b 22%,
+      #e91e63 42%,
+      #f06292 60%,
+      #ff7043 78%,
+      #ffa726 90%,
+      #ffd54f 100%
+    );
+  }
+
+  .bg-curtain-folds-multi {
+    background: repeating-linear-gradient(
+      90deg,
+      rgba(158, 27, 50, 0.45) 0px,
+      rgba(233, 30, 99, 0.3) 18px,
+      rgba(255, 112, 67, 0.25) 36px,
+      rgba(255, 213, 79, 0.3) 54px,
+      rgba(240, 98, 146, 0.35) 72px,
+      rgba(194, 24, 91, 0.4) 90px
+    );
+  }
+
+  .bg-curtain-valance {
+    background: linear-gradient(
+      90deg,
+      #c2185b 0%,
+      #e91e63 20%,
+      #ff7043 45%,
+      #ffa726 70%,
+      #ffd54f 85%,
+      #c2185b 100%
+    );
+  }
+
+  .bg-kasavu-gold-subtle {
+    background: linear-gradient(
+      135deg,
+      rgba(212, 175, 55, 0.15) 0%,
+      rgba(255, 244, 194, 0.1) 50%,
+      rgba(153, 101, 21, 0.15) 100%
+    );
+  }
+
+  .text-kasavu-gold {
+    color: #9e782f;
+  }
+
+  .text-kasavu-bright {
+    color: #b88d3b;
+  }
+
+  .border-kasavu-gold {
+    border-color: #d6be8b;
+  }
+
+  /* Traditional Kasavu Zari Fine Border */
+  .kasavu-kara-line {
+    background: repeating-linear-gradient(
+      45deg,
+      #bfa054 0,
+      #bfa054 3px,
+      #e2d2a4 3px,
+      #e2d2a4 6px
+    );
+  }
+
+  /* Kerala Thaliyola Palm-Leaf Manuscript Texture (Warm Light Ivory/Beige) */
+  .thaliyola-texture-light {
+    background-color: #f4ecdc;
+    background-image:
+      linear-gradient(90deg, rgba(120, 80, 30, 0.04) 1px, transparent 1px),
+      linear-gradient(rgba(120, 80, 30, 0.03) 1px, transparent 1px),
+      radial-gradient(ellipse at 50% 50%, #f9f4ea 0%, #eee2cc 100%);
+    background-size: 12px 12px, 100% 6px, 100% 100%;
+    box-shadow: inset 0 0 20px rgba(160, 120, 60, 0.12);
+  }
+
+  /* Subtle Kolam dot pattern */
+  .kolam-pattern-subtle {
+    background-image: radial-gradient(rgba(180, 140, 60, 0.15) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  /* Minimal Nilavilakku Flame Animation */
+  @keyframes nilavilakku-gentle {
+    0%, 100% {
+      transform: scale(1) translateY(0);
+      opacity: 0.95;
+    }
+    50% {
+      transform: scale(1.05, 0.95) translateY(-1px);
+      opacity: 1;
+    }
+  }
+
+  .animate-vilakku-gentle {
+    animation: nilavilakku-gentle 2.2s infinite ease-in-out;
+  }
+
+  /* Subtle Gold Shimmer */
+  .gold-shimmer-subtle {
+    background: linear-gradient(
+      90deg,
+      #78182a 0%,
+      #a8822e 30%,
+      #c49b38 50%,
+      #a8822e 70%,
+      #78182a 100%
+    );
+    background-size: 200% auto;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  /* Fabric Sway & Breathing Keyframes */
+  @keyframes swayGentleLeft {
+    0%, 100% {
+      transform: rotate(0deg) skewX(0deg);
+    }
+    50% {
+      transform: rotate(-0.75deg) skewX(-0.5deg);
+    }
+  }
+
+  @keyframes swayGentleRight {
+    0%, 100% {
+      transform: rotate(0deg) skewX(0deg);
+    }
+    50% {
+      transform: rotate(0.75deg) skewX(0.5deg);
+    }
+  }
+}
+
+
