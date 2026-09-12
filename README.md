@@ -119,7 +119,7 @@ The system ultimately crashes after realizing it never considered the most impor
 The project ends with the message: “Decision Returned to Humans.”
 
 ### Deployed video
-uselessprojectvadhuvidhi.vercel.app
+[uselessprojectvadhuvidhi.vercel.app]
 
 
 ---
